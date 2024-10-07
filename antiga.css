@@ -1,0 +1,112 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+Georgian:wght@100..900&display=swap');
+
+*
+{
+
+    font-family: "Noto Sans Georgian";
+    padding: 0px;
+    margin: 0px;
+
+}
+
+::-webkit-scrollbar
+{
+
+    height: 0px;
+    width: 0px;
+
+}
+
+/*-_-*/
+
+.corpo
+{
+    margin: auto;
+    color: white;
+    padding: 30px;
+    box-shadow: 0px 0px 5px black;
+    background-color: rgb(194, 117, 45);
+    width: 70dvw;
+
+}
+
+.html, body
+{
+
+    background-image: url(fundo\ 5.jpg);
+    background-size: cover;
+    background-position: center, center;
+    background-attachment: fixed;
+
+}
+.historia > h1
+{
+ text-align: center;
+}
+.corpo > h1,h2,p,img
+{
+    margin: 20px;
+    text-align: justify;
+
+}
+
+.corpo > h1
+{
+
+    text-align: center;
+
+}
+
+.imagens
+{
+
+ width: 100%;
+ display: flex;
+ margin: auto;
+
+}
+
+img
+{
+
+    width: 80%;
+
+}
+
+.foto{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+.video
+{
+
+   padding-bottom: 45%;
+   margin: 10px;
+   position: relative;
+
+}
+
+.video > iframe 
+{
+
+   top: 5%;
+   left: 5%;
+   width: 90%;
+   height: 90%; 
+   position: absolute;
+}
+.legenda > p
+{
+    margin-top: 8px;
+    text-align: center;
+    font-size: 14px;
+}
+.obras{
+    display: flex;
+    flex-direction: column;
+ }

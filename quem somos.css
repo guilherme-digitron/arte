@@ -1,0 +1,71 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+Georgian:wght@100..900&display=swap');
+
+*
+{
+
+    font-family: "Noto Sans Georgian";
+    margin: 0px;
+    padding: 0px;
+
+}
+
+/*-_-*/
+
+.corpo
+{
+
+    color: white;
+    width: 60dvw;
+    margin: auto;
+    box-shadow: 0px 0px 5px black;
+    background-color: rgb(187, 183, 101);
+    padding: 30px;
+}
+
+.html, body
+{
+
+    background-image: url(faivicon\ \(2\).jpeg);
+    background-size: cover;
+    background-position: center, center;
+    background-attachment: fixed;
+
+}
+
+.corpo > p,img
+{
+
+    margin: 20px;
+    text-align: justify;
+
+}
+
+.corpo > h1
+{
+
+    text-align: center;
+
+}
+
+img
+{
+
+ width: 50%;
+
+}
+
+
+ .imagem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    flex-direction: column;
+ }
+
+ .imagem > p {
+    margin: 0%;
+ }
+ 

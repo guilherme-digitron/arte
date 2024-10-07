@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pincel do Tempo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="carrossel-2.css">
+    <link rel="stylesheet" href="rodape.css">
+    <link rel="shortcut icon" href="log-c.png" type="image/x-icon">
+    <script defer src="main.js"></script>
+    <script defer src="carrossel.js"></script>
+</head>
+<body onresize="tamanho()">
+
+    <header>
+        <nav class="menu">
+        
+          <div class="lista-links">
+            <ul>
+              <li class="item-menu"><a class="link" href="index.html">Home</a></li>
+              <li class="item-menu"><a class="link" href="bibliografia.html">Bibliorafia</a></li>
+              <li class="item-menu"><a class="link" href="mapas.html">Parceiros</a></li>
+            </ul>
+          </div>
+          <div class="avaliar">
+            <button><a href="feedback.html">avaliar</a></button>
+          </div>
+          
+          <div class="mobile-menu-btn">
+            
+            <P>Menu</P>
+            
+          </div>
+        </nav>
+        <div class="mobile-menu">
+          
+            <ul>
+              <li class="item-menu"><a class="link" href="index.html">Home</a></li>
+              <li class="item-menu"><a class="link" href="bibliografia.html">Bibliografia</a></li>
+              <li class="item-menu"><a class="link" href="mapas.html">Parceiros</a></li>
+            </ul>
+            
+          <div class="avaliar">
+            <button><a href="feedback.html">avaliar</a></button>
+          </div>
+          
+        </div>
+    </header>
+
+    <div class="corpo">
+
+      <h1>Pincel do tempo</h1>
+
+      <div class="img">
+  
+       <img src="../img/antiga.jpg" alt="" id="img2">
+        
+       <img src="../img/contemporanea.jpg" alt="" id="img7">
+        
+       <img src="../img/medieval.jpg" alt="" id="img3">
+        
+       <img src="../img/modernas.webp" alt="" id="img6">
+        
+        <img src="../img/fundo.jpg" alt="" id="img5">
+        
+        <img src="../img/rupestre.jpg" alt="" id="img1">
+        
+       <img src="../img/venus-de-milu.jpeg" alt="" id="img4">
+        
+      </div>
+      
+      <div id="btn">
+        <div class="nav-btn">
+          <button id="ant" onclick="anterior()">anterior</button>
+          <button id="proximo" onclick="proximo()">proximo</button>
+        </div>
+        <div class="ver-btn"><button id="ver" onclick="ver()">veja mais</button></div>  
+      </div>
+      <button id="iniciar" onclick="iniciar()">iniciar</button>
+
+    </div>
+
+    <footer>
+        <div class="conteiner-rodape">
+    
+            <div class="lista-r">
+            <ul class="lista-elementos">
+              
+             <li><h3>Artes</h3></li>
+             <li><a href="pré-histórica.html">Pré-Historica</a></li> 
+             <li><a href="antiga.html">Antiga</a></li>
+             <li><a href="medieval.html">Medieval</a></li>
+             <li><a href="renascentista.html">Renacentista</a></li>  
+             <li><a href="pre-colonbiana.html">Pré-Colombiana</a></li> 
+             <li><a href="arte moderna.html">Moderna</a></li>
+             <li><a href="arte contemporanea.html">Contemporanea</a></li>
+             
+                
+              
+            </ul>
+            
+            <ul class="lista-elementos">
+              
+             <li><h3>Importante</h3></li>
+             <li><a href="index.html">Home</a></li>
+             <li><a href="mapas.html">Parceiros</a></li>
+             <li><a href="politica-de-dados.html">Política de Privacidade</a></li> 
+             <li><a href="termos-de-uso.html">Termo de Uso</a></li>
+             <li><a href="quem somos.html">Quem Somos</a></li> 
+             <li><a href="#">Voltar ao Topo</a></li> 
+              
+            </ul>
+           </div>
+          </div>
+            
+            <div class="direitos">
+              
+              <p>Todos os direitos reservados a &copy 2024 Pixel.Ltda</p>
+              
+            </div>
+    </footer>
+    
+</body>
+</html>

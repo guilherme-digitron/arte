@@ -1,0 +1,109 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+Georgian:wght@100..900&display=swap');
+
+*
+{
+
+    font-family: "Noto Sans Georgian";
+    margin: 0rem;
+    padding: 0;
+
+}
+
+::-webkit-scrollbar
+{
+
+    height: 0px;
+    width: 0px;
+
+}
+
+/*-_-*/
+
+.corpo
+{
+
+    color: rgb(68, 68, 68);
+    width: 60dvw;
+    margin: 3rem auto;
+
+}
+
+
+.corpo > h1,h2,h3,p,img
+{
+
+    margin: 1rem;
+    text-align: justify;
+
+}
+
+.formulario
+{
+
+    margin-top: 1rem;
+
+}
+
+form > input
+{
+
+    margin: .9rem 0rem;
+    
+
+}
+
+form > label, select
+{
+
+    margin: 1rem 0px;
+
+}
+
+.corpo > h1
+{
+
+    text-align: center;
+
+}
+
+footer > h1,h2,h3,p,img 
+{
+
+    margin: 0px;
+
+}
+
+textarea 
+{
+
+    width: 80%;
+    height: 10dvh;
+    margin-bottom: 1rem;
+
+}
+
+#enviar
+{
+
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    padding: 10px 15px;
+    height: 50px;
+    width: 100px;
+    border: none;
+    border-radius: 20px;
+    background-color: black;
+    color: aliceblue;
+    text-decoration: none;
+    font: normal bold .9rem "Noto Sans Georgian";
+    
+}
+
+#enviar:hover
+{
+
+    background-color: aliceblue;
+    color: black;
+
+}
